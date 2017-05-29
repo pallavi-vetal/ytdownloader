@@ -1,6 +1,7 @@
   $("#convertBtn").click(function(event){
     console.log('clicked !');
     $("#convertBtn").hide();
+    $("#details").show();
     var convertAnother1 = $('<a><button class="btn btn-secondary" type="button" id="convertBtn">Wait..Downloading !</button></a>');
     $("#convertAnother1").append($(convertAnother1));
     $.ajax({

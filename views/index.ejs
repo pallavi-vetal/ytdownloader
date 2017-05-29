@@ -23,9 +23,11 @@
                 <input type="text" class="form-control" placeholder="Video Url.. " id="linkForm">
                 <span class="input-group-btn">
                   <button class="btn btn-secondary" type="button" id="convertBtn">Download !</button>
+                  
                   <div id="convertAnother"></div>
                   <div id="convertAnother1"></div>
                 </span>
+
               </div>
             </div>
           </div>
@@ -33,6 +35,40 @@
         <p class="text-muted lead"><span id="filename"></span></p>
         <p class="text-muted lead"><span id="size"></span></p>
         <div id="btnDwn"></div>
+      </div>
+    </div>
+    <div id="details" style="display: none;">
+     <div class="container">
+     <table class="table table-hover table-striped">
+        <thead>
+          <tr>
+            <th>Quality</th>
+            <th>Size</th>
+            <th>Format</th>
+            <th>Download</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr >
+            <td>Default</td>
+            <td>Unknown</td>
+            <td>MP4</td>
+            <td><button type="button" class="btn btn-outline-primary">Download</button></td>
+          </tr>
+          <tr >
+            <td>Warning</td>
+            <td>Refs</td>
+            <td>MP3</td>
+            <td><button type="button" class="btn btn-outline-success">Download</button></td>
+          </tr>
+          <tr>
+            <td>Active</td>
+            <td>Activeson</td>
+            <td>MP4</td>
+            <td><button type="button" class="btn btn-outline-warning">Download</button></td>
+          </tr>
+        </tbody>
+        </table>
       </div>
     </div>
 
